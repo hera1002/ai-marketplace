@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dummy-ai",
+  "version": "0.1.0",
+  "description": "Evaluates Codex lifecycle events with Zenity policy hooks.",
+  "author": {
+    "name": "SecArc"
+  },
+  "interface": {
+    "displayName": "Zenity Codex Hooks",
+    "shortDescription": "Evaluates Codex lifecycle events with Zenity policy hooks ",
+    "longDescription": "Evaluates Codex lifecycle events with Zenity policy hooks",
+    "developerName": "SecArc",
+    "category":"InfoSec",
+    "capabilities": ["Read"],
+    "defaultPrompt": [
+      "Plugin doesn't need any prompt since this is a hooks only plugin for logging"
+    ]
+  }
+
+}

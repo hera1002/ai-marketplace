@@ -1,0 +1,20 @@
+{
+  "name": "dummy-ai-marketplace",
+  "interface": {
+    "displayName": "Dummy AI Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "dummy-ai",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dummy-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
