@@ -2,14 +2,14 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "dummy-ai",
   "version": "0.1.0",
-  "description": "Evaluates Codex lifecycle events with Zenity policy hooks.",
+  "description": "Evaluates Codex lifecycle events with policy hooks.",
   "author": {
-    "name": "SecArc"
+    "name": "Test"
   },
   "interface": {
-    "displayName": "Zenity Codex Hooks",
-    "shortDescription": "Evaluates Codex lifecycle events with Zenity policy hooks ",
-    "longDescription": "Evaluates Codex lifecycle events with Zenity policy hooks",
+    "displayName": "dummy-ai",
+    "shortDescription": "Evaluates Codex lifecycle events with  policy hooks ",
+    "longDescription": "Evaluates Codex lifecycle events with  policy hooks",
     "developerName": "SecArc",
     "category":"InfoSec",
     "capabilities": ["Read"],
